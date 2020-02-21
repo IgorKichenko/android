@@ -1,4 +1,4 @@
-# iProov Android SDK (v4.4.0)
+# iProov Android SDK (v4.4.1)
 
 ## 🤖 Introduction
 
@@ -26,7 +26,7 @@ The Android SDK is provided in AAR format (Android Library Project) as a Maven d
 
 ```gradle
 repositories {
-    maven { url 'https://raw.githubusercontent.com/iProov/android/master/maven/' }
+    maven { url 'https://raw.githubusercontent.com/iProov/android/v4/maven/' }
 }
 ```
 
@@ -34,7 +34,7 @@ repositories {
 
 ```gradle
 dependencies {
-    implementation('com.iproov.sdk:iproov:4.4.0@aar') {
+    implementation('com.iproov.sdk:iproov:4.4.1@aar') {
         transitive=true
     }
 }
